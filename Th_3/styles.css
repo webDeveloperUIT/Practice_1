@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+  padding: 50px;
+  text-align: left;
+}
+h1 {
+  margin: 20px;
+}
+label {
+  font-size: 20px;
+  margin-right: 20px;
+  display: inline-block;
+  min-width: 120px;
+}
+div {
+  margin: 20px 0;
+}
+input {
+  height: 40px;
+  width: 250px;
+}
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}

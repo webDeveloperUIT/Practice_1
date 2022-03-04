@@ -1,0 +1,33 @@
+body {
+  background-color: #ffedca;
+}
+table {
+  border: 1px solid #999;
+  width: 100%;
+}
+td {
+  border: 1px solid #999;
+  color: #0000ff;
+  padding: 10px;
+}
+tr {
+  border: 1px solid #999;
+  margin: 10px 0;
+}
+td > input {
+  width: 50vw;
+  height: 30px;
+  padding: 10px;
+}
+td > input[type="radio"] {
+  width: 20px;
+}
+td > input[type="select"] {
+  width: 400px;
+  height: 80px;
+  outline: none;
+}
+th {
+  font-size: 30px;
+  text-align: center;
+}
